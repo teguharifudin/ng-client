@@ -1,0 +1,4 @@
+<div *ngIf="isSignedin">
+	<p>Welcome back, {{ me }} / {{ signedinUser }}!</p>
+	<p><a style="text-decoration: underline; cursor: pointer;" (click)="signout()">Signout</a></p>
+</div>
